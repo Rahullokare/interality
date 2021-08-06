@@ -420,5 +420,6 @@ i.fa {
   border-radius: 20px;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 40px;
   /* height: 80vh; */
 }

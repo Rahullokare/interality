@@ -43,17 +43,16 @@ module.exports = {
 
       // Images
       {
-        test: /\.(jpg|png|gif|svg)$/,
+        test: /\.(png|jpg|gif)$/,
         use: [
           {
             loader: "file-loader",
             options: {
-              outputPath: "assets/images/",
+              outputPath: "assets/images",
             },
           },
         ],
       },
-
       // Fonts
       {
         test: /\.(ttf|eot|woff|woff2)$/,
